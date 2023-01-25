@@ -19,29 +19,29 @@ import holoviews as hv
 from holoviews import opts
 from holoviews.streams import Pipe, Buffer
 
-from controls.controllers import MainController, PointOptions, SegmentOptions
+from PySOMVis.controls.controllers import MainController, PointOptions, SegmentOptions
 hv.extension('bokeh')
 
-from visualizations.complane import ComponentPlane
-from visualizations.dmatrix import DMatrix
-from visualizations.hithistogram import HitHist
-from visualizations.sdh import SDH
-from visualizations.qerror import QError
-from visualizations.umatrix import UMatrix
-from visualizations.upmatrix import UStar_PMatrix
-from visualizations.neighbourhood_graph import NeighbourhoodGraph
-from visualizations.clustering import Clustering
-from visualizations.metromap import MetroMap
-from visualizations.piechart import PieChart
-from visualizations.chessboard import Chessboard
-from visualizations.somstreamvis import SOMStreamVis
-from visualizations.sky_metaphor import SkyMetaphor
-from visualizations.topographic_error import TopographicError
-from visualizations.intrinsic_distance import IntrinsicDistance
-from visualizations.activityhist import ActivityHist
-from visualizations.minimumSpanningTree import MinimumSpanningTree
-from visualizations.cluster_connection import ClusterConnection
-from mnemonics.mnemonicSOM import MnemonicSOM
+from PySOMVis.visualizations.complane import ComponentPlane
+from PySOMVis.visualizations.dmatrix import DMatrix
+from PySOMVis.visualizations.hithistogram import HitHist
+from PySOMVis.visualizations.sdh import SDH
+from PySOMVis.visualizations.qerror import QError
+from PySOMVis.visualizations.umatrix import UMatrix
+from PySOMVis.visualizations.upmatrix import UStar_PMatrix
+from PySOMVis.visualizations.neighbourhood_graph import NeighbourhoodGraph
+from PySOMVis.visualizations.clustering import Clustering
+from PySOMVis.visualizations.metromap import MetroMap
+from PySOMVis.visualizations.piechart import PieChart
+from PySOMVis.visualizations.chessboard import Chessboard
+from PySOMVis.visualizations.somstreamvis import SOMStreamVis
+from PySOMVis.visualizations.sky_metaphor import SkyMetaphor
+from PySOMVis.visualizations.topographic_error import TopographicError
+from PySOMVis.visualizations.intrinsic_distance import IntrinsicDistance
+from PySOMVis.visualizations.activityhist import ActivityHist
+from PySOMVis.visualizations.minimumSpanningTree import MinimumSpanningTree
+from PySOMVis.visualizations.cluster_connection import ClusterConnection
+from PySOMVis.mnemonics.mnemonicSOM import MnemonicSOM
 from skimage.transform import resize
 
 OBJECTS_CLASSES = [ComponentPlane, HitHist, UMatrix, DMatrix, UStar_PMatrix, 

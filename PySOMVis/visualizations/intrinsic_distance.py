@@ -1,9 +1,9 @@
 import numpy as np
 import panel as pn
-from visualizations.iVisualization import VisualizationInterface
+from PySOMVis.visualizations.iVisualization import VisualizationInterface
 from typing import Tuple, List
 import numpy as np
-from visualizations.graph import Graph
+from PySOMVis.visualizations.graph import Graph
 #------------------------------------------------------------------TESTING MODE-----------------------------------------------------------#
 class IntrinsicDistance(VisualizationInterface):
 

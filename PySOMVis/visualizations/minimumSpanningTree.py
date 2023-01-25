@@ -3,8 +3,8 @@ from networkx.algorithms import tree
 from holoviews import dim
 import numpy as np
 import panel as pn
-from controls.controllers import MinimumSpanningTreeController
-from visualizations.iVisualization import VisualizationInterface
+from PySOMVis.controls.controllers import MinimumSpanningTreeController
+from PySOMVis.visualizations.iVisualization import VisualizationInterface
 
 class MinimumSpanningTree(VisualizationInterface):
     

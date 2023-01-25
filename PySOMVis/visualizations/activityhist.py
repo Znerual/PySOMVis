@@ -1,7 +1,7 @@
 import numpy as np
 import panel as pn
-from controls.controllers import ActivityHistController
-from visualizations.iVisualization import VisualizationInterface
+from PySOMVis.controls.controllers import ActivityHistController
+from PySOMVis.visualizations.iVisualization import VisualizationInterface
 
 class ActivityHist(VisualizationInterface):
     

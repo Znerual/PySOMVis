@@ -1,7 +1,7 @@
 import numpy as np
-from visualizations.iVisualization import VisualizationInterface
-from visualizations.sdh import SDH
-from controls.controllers import SkyMetaphorController
+from PySOMVis.visualizations.iVisualization import VisualizationInterface
+from PySOMVis.visualizations.sdh import SDH
+from PySOMVis.controls.controllers import SkyMetaphorController
 import holoviews as hv
 import panel as pn
 import scipy.ndimage

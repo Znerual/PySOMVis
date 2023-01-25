@@ -1,8 +1,8 @@
 import numpy as np
 import panel as pn
 import pandas as pd
-from controls.controllers import ClusterConnectionController
-from visualizations.iVisualization import VisualizationInterface
+from PySOMVis.controls.controllers import ClusterConnectionController
+from PySOMVis.visualizations.iVisualization import VisualizationInterface
 
 class ClusterConnection(VisualizationInterface):
     

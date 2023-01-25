@@ -1,5 +1,5 @@
-from visualizations.iVisualization import VisualizationInterface
-from controls.controllers import SDHController
+from PySOMVis.visualizations.iVisualization import VisualizationInterface
+from PySOMVis.controls.controllers import SDHController
 import panel as pn
 import numpy as np
 
